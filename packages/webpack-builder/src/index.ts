@@ -11,18 +11,6 @@ class WebpackConfig {
     this.settings = createSettings();
   }
 
-  // public logSetup(
-  //   logger?: (settings: ConfigSettings, webpackConfig: Configuration) => void
-  // ) {
-  //   if (logger) {
-  //     logger(this.settings, this.config);
-  //   } else {
-  //     console.log("settings: ", this.settings);
-  //     console.log("webpack config: ", this.config);
-  //   }
-  //   return this;
-  // }
-
   public setupSettings(
     updater: (defaultSettings: ConfigSettings) => SettingsOverride
   ): this {
