@@ -1,0 +1,6 @@
+.DS_*
+.idea/
+node_modules/
+.vscode/
+coverage
+.pnpm-debug.log

@@ -1,0 +1,8 @@
+{
+  "name": "@devsendjin/frontend",
+  "version": "1.0.0",
+  "description": "configs + builder monorepo",
+  "scripts": {},
+  "author": "Anatoliy Skichko",
+  "license": "ISC"
+}
